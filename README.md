@@ -1,4 +1,4 @@
-# DiplomaDiagCli
+# DiplomaDigitalDiagCli
 
 CLI .NET que analisa os XMLs do **Diploma Digital** e do **Histórico Escolar
 Digital** do MEC (leiaute XSD v1.05) e emite um diagnóstico estruturado em
@@ -36,6 +36,8 @@ Documentos suportados: `Diploma`, `DocumentoHistoricoEscolarParcial`,
 ## Início rápido
 
 ```powershell
+git clone https://github.com/fernandoaugusto21/DiplomaDigitalDiagCli.git
+cd DiplomaDigitalDiagCli
 dotnet run --project code/DiplomaDiagnosticCli -- --file samples/historico-final-com-problemas.xml --output -
 ```
 
