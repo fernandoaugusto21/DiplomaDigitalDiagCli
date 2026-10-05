@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fixture sintética: todos os dados são fictícios (CPFs/CNPJs gerados com dígito verificador válido). -->
+<DocumentoHistoricoEscolarFinal xmlns="http://portal.mec.gov.br/diplomadigital/arquivos-em-xsd">
+  <infHistoricoEscolar versao="1.05">
+    <Aluno>
+      <ID>2019000123</ID>
+      <Nome>Maria Ficticia da Silva Teste</Nome>
+      <Sexo>F</Sexo>
+      <Nacionalidade>Brasileira</Nacionalidade>
+      <Naturalidade>
+        <CodigoMunicipio>3550308</CodigoMunicipio>
+        <NomeMunicipio>São Paulo</NomeMunicipio>
+        <UF>SP</UF>
+      </Naturalidade>
+      <CPF>52998224725</CPF>
+      <RG>
+        <Numero>RGX987654</Numero>
+        <OrgaoExpedidor>SSP</OrgaoExpedidor>
+        <UF>SP</UF>
+      </RG>
+      <DataNascimento>2000-03-15</DataNascimento>
+    </Aluno>
+    <DadosCurso>
+      <NomeCurso>Engenharia de Testes</NomeCurso>
+      <CodigoCursoEMEC>1234567</CodigoCursoEMEC>
+      <Autorizacao>
+        <Tipo>Portaria</Tipo>
+        <Numero>100</Numero>
+        <Data>2015-01-10</Data>
+      </Autorizacao>
+      <Reconhecimento>
+        <Tipo>Portaria</Tipo>
+        <Numero>200</Numero>
+        <Data>2019-06-20</Data>
+      </Reconhecimento>
+    </DadosCurso>
+    <IesEmissora>
+      <Nome>Faculdade Ficticia de Testes</Nome>
+      <CodigoMEC>9999</CodigoMEC>
+      <CNPJ>11222333000181</CNPJ>
+      <Endereco>
+        <Logradouro>Rua dos Testes</Logradouro>
+        <Numero>100</Numero>
+        <Bairro>Centro</Bairro>
+        <CodigoMunicipio>3550308</CodigoMunicipio>
+        <NomeMunicipio>São Paulo</NomeMunicipio>
+        <UF>SP</UF>
+        <CEP>01001000</CEP>
+      </Endereco>
+      <Credenciamento>
+        <Tipo>Portaria</Tipo>
+        <Numero>50</Numero>
+        <Data>2010-02-01</Data>
+      </Credenciamento>
+      <Mantenedora>
+        <RazaoSocial>Mantenedora Ficticia de Ensino</RazaoSocial>
+        <CNPJ>11444777000161</CNPJ>
+        <Endereco>
+          <Logradouro>Rua dos Testes</Logradouro>
+          <Numero>100</Numero>
+          <Bairro>Centro</Bairro>
+          <CodigoMunicipio>3550308</CodigoMunicipio>
+          <NomeMunicipio>São Paulo</NomeMunicipio>
+          <UF>SP</UF>
+          <CEP>01001000</CEP>
+        </Endereco>
+      </Mantenedora>
+    </IesEmissora>
+    <HistoricoEscolar>
+      <CodigoCurriculo>ENGTST-2019</CodigoCurriculo>
+      <ElementosHistorico>
+        <Disciplina>
+          <CodigoDisciplina>TST101</CodigoDisciplina>
+          <NomeDisciplina>Fundamentos de Testes</NomeDisciplina>
+          <PeriodoLetivo>2019/1</PeriodoLetivo>
+          <CargaHoraria>
+            <HoraRelogio>1200</HoraRelogio>
+          </CargaHoraria>
+          <Nota>8.50</Nota>
+          <Aprovado>
+            <FormaIntegralizacao>Cursado</FormaIntegralizacao>
+          </Aprovado>
+          <Docentes>
+            <Docente>
+              <Nome>Joao Docente Ficticio</Nome>
+              <Titulacao>Mestrado</Titulacao>
+              <CPF>11144477735</CPF>
+            </Docente>
+          </Docentes>
+        </Disciplina>
+        <Disciplina>
+          <CodigoDisciplina>TST201</CodigoDisciplina>
+          <NomeDisciplina>Testes Automatizados</NomeDisciplina>
+          <PeriodoLetivo>2020/1</PeriodoLetivo>
+          <CargaHoraria>
+            <HoraRelogio>1500</HoraRelogio>
+          </CargaHoraria>
+          <Nota>9.50</Nota>
+          <Aprovado>
+            <FormaIntegralizacao>Cursado</FormaIntegralizacao>
+          </Aprovado>
+          <Docentes>
+            <Docente>
+              <Nome>Joao Docente Ficticio</Nome>
+              <Titulacao>Mestrado</Titulacao>
+            </Docente>
+          </Docentes>
+        </Disciplina>
+        <Disciplina>
+          <CodigoDisciplina>TST301</CodigoDisciplina>
+          <NomeDisciplina>Qualidade de Software</NomeDisciplina>
+          <PeriodoLetivo>2021/1</PeriodoLetivo>
+          <CargaHoraria>
+            <HoraRelogio>800</HoraRelogio>
+          </CargaHoraria>
+          <Nota>7.00</Nota>
+          <Pendente />
+          <Docentes>
+            <Docente>
+              <Nome>Ana Docente Ficticia</Nome>
+              <Titulacao>Doutorado</Titulacao>
+            </Docente>
+          </Docentes>
+        </Disciplina>
+        <AtividadeComplementar>
+          <CodigoAtividadeComplementar>AC-01</CodigoAtividadeComplementar>
+          <DataInicio>2021-03-01</DataInicio>
+          <DataFim>2021-06-30</DataFim>
+          <TipoAtividadeComplementar>Extensão</TipoAtividadeComplementar>
+          <CargaHorariaEmHoraRelogio>200</CargaHorariaEmHoraRelogio>
+          <DocentesResponsaveisPelaValidacao>
+            <Docente>
+              <Nome>Ana Docente Ficticia</Nome>
+              <Titulacao>Doutorado</Titulacao>
+            </Docente>
+          </DocentesResponsaveisPelaValidacao>
+        </AtividadeComplementar>
+        <Estagio>
+          <CodigoUnidadeCurricular>EST-01</CodigoUnidadeCurricular>
+          <DataInicio>2022-02-01</DataInicio>
+          <DataFim>2022-11-30</DataFim>
+          <CargaHorariaEmHorasRelogio>300</CargaHorariaEmHorasRelogio>
+          <DocentesOrientadores>
+            <Docente>
+              <Nome>Ana Docente Ficticia</Nome>
+              <Titulacao>Doutorado</Titulacao>
+            </Docente>
+          </DocentesOrientadores>
+        </Estagio>
+      </ElementosHistorico>
+      <DataEmissaoHistorico>2023-02-10</DataEmissaoHistorico>
+      <HoraEmissaoHistorico>10:30:00</HoraEmissaoHistorico>
+      <SituacaoAtualDiscente>
+        <Formado>
+          <DataConclusaoCurso>2022-12-15</DataConclusaoCurso>
+          <DataColacaoGrau>2023-01-20</DataColacaoGrau>
+          <DataExpedicaoDiploma>2023-02-01</DataExpedicaoDiploma>
+        </Formado>
+      </SituacaoAtualDiscente>
+      <ENADE>
+        <Habilitado>
+          <Condicao>Concluinte</Condicao>
+          <Edicao>2022</Edicao>
+        </Habilitado>
+      </ENADE>
+      <CargaHorariaCursoIntegralizada>
+        <HoraRelogio>4000</HoraRelogio>
+      </CargaHorariaCursoIntegralizada>
+      <CargaHorariaCurso>
+        <HoraRelogio>4000</HoraRelogio>
+      </CargaHorariaCurso>
+      <IngressoCurso>
+        <Data>2019-02-01</Data>
+        <FormaAcesso>Vestibular</FormaAcesso>
+      </IngressoCurso>
+    </HistoricoEscolar>
+    <SegurancaHistorico>
+      <CodigoValidacao>9999.0a1b2c3d4e5f</CodigoValidacao>
+    </SegurancaHistorico>
+  </infHistoricoEscolar>
+<Signature Id="id-0b0092842d2b41b5b49de007fb54c16b" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/TR/1999/REC-xpath-19991116"><XPath xmlns:ds="http://www.w3.org/2000/09/xmldsig#">not(ancestor-or-self::ds:Signature)</XPath></Transform><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><DigestValue>cl06O4uvPPZffubTth46WY0cpLoDi6GWXgRg8jOhoL8=</DigestValue></Reference><Reference URI="#xades-id-0b0092842d2b41b5b49de007fb54c16b" Type="http://uri.etsi.org/01903#SignedProperties"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><DigestValue>itTDxQHaVWa8dZ3e2I8irgEdyYYz5QPw0yMqKxPKF4k=</DigestValue></Reference></SignedInfo><SignatureValue>S5PD82PURZLEMTeruidQYJ6geV2SHS0udUA3RiFUeQ9o0z9Df7Mxpz9qarp/Ds1yz89X4OkDy1S3f+g6LZoCrhBh4OI25DQCOkN7DYn9jfp3xpz4VD2N5B/NZgc5dLE8TKjJ06eZx8irvne9eEXn2JYJrS+EbuAZDZkXtROrl4JAGu5vorQFnpSD3e7CDixpfuidIPj9oeWqljmk7wRS6RSnNUhbBdgc/IKkKMPPLn3LjSkA0WYLMaiNnHeMvfD9Aim13mmRLtUBmoTMoBa9bsPCfQadclpu7FGONLUeb/3a5d/xbe0AKv+M75oTGNyrOYp6qhXFxw1O3rrD7cBceQ==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIDYjCCAkqgAwIBAgIIZzADN+qSqpEwDQYJKoZIhvcNAQELBQAwcTELMAkGA1UEBhMCQlIxGTAXBgNVBAoTEElDUC1CcmFzaWwgVEVTVEUxFzAVBgNVBAsTDmUtQ1BGIEEzIFRFU1RFMS4wLAYDVQQDEyVNQVJJQSBTRUNSRVRBUklBIEZJQ1RJQ0lBOjM5MDUzMzQ0NzA1MB4XDTIwMDEwMTAwMDAwMFoXDTMwMDEwMTAwMDAwMFowcTELMAkGA1UEBhMCQlIxGTAXBgNVBAoTEElDUC1CcmFzaWwgVEVTVEUxFzAVBgNVBAsTDmUtQ1BGIEEzIFRFU1RFMS4wLAYDVQQDEyVNQVJJQSBTRUNSRVRBUklBIEZJQ1RJQ0lBOjM5MDUzMzQ0NzA1MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAs/uB1RmxRAJANIQIVrObbp/gSXTDm8CwMni9IjldYyufPs2adrc2DyldrCcrBRqEeDjJMCs87+MbfcQwd0sOuYFXQ/W3F/dRALAHpMvE2vmcxx0i3o3WeARautq6CaiE1Rphpj0L+O8lz50w8pU8M0suFosZhxidrafWifvQ18pbP8H3yl9cMNHB9evKl8ibRCnukpbvPZfK+WdTTmpZZb+SY5EwDHZUgjK8dZVtBqUycqwlcUPZ2ynxxSxpqJe8f8FMPUznupDw9y2xMvNP7Izw0f8k1RP0cbURxccmLivBana4QiK0ObhyCiAJV5s3OelurWdeK6yb0PK40sUEmQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQAOvR+2kDq6k03dNddtaLyppFS8S9SDvY1bdgT00WJfMqN1Y3MiQ+23iSXs1dStzJIaEb9xR3MizvxfU6ThJUfc2GFAO1hjgZODmlHw2n1vHXrjYuSu+hY33iiz52j1ACBnXfR8Pt9mmSgzfq178Y4aLmtX7JQKmrJtssd5PiBIj/f44ekqiXLOGqsgnY9tiXJVhX0Qfojh/H6uHhoyr+UZndwRqef4ShoM3T81kCsuvvWbh0klLbrAB7mYsnH8IK20cjx6+7ut3T0rw84my31GuBOfFAfAo4g++LqL8wN4PzgdZjtCnI0xGBKdwz+o99et/N/wfN/i31EbM162DpX+</X509Certificate></X509Data></KeyInfo><Object><xades:QualifyingProperties Target="#id-0b0092842d2b41b5b49de007fb54c16b" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#"><xades:SignedProperties Id="xades-id-0b0092842d2b41b5b49de007fb54c16b"><xades:SignedSignatureProperties><xades:SigningTime>2023-02-10T12:00:00Z</xades:SigningTime><xades:SignaturePolicyIdentifier><xades:SignaturePolicyId><xades:SigPolicyId><xades:Identifier>urn:oid:2.16.76.1.7.1.6.2.4</xades:Identifier></xades:SigPolicyId><xades:SigPolicyQualifiers><xades:SigPolicyQualifier><xades:SPURI>http://politicas.icpbrasil.gov.br/PA_AD_RB_v2_4.xml</xades:SPURI></xades:SigPolicyQualifier></xades:SigPolicyQualifiers></xades:SignaturePolicyId></xades:SignaturePolicyIdentifier></xades:SignedSignatureProperties></xades:SignedProperties></xades:QualifyingProperties></Object></Signature><Signature Id="id-8e9090b11ae84232b944b6fd29705153" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/TR/1999/REC-xpath-19991116"><XPath xmlns:ds="http://www.w3.org/2000/09/xmldsig#">not(ancestor-or-self::ds:Signature)</XPath></Transform><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><DigestValue>cl06O4uvPPZffubTth46WY0cpLoDi6GWXgRg8jOhoL8=</DigestValue></Reference><Reference URI="#xades-id-8e9090b11ae84232b944b6fd29705153" Type="http://uri.etsi.org/01903#SignedProperties"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><DigestValue>4VbVbQ9hR3zU8NGAKUvhxGRTv3EJcL1OC2por81S77Y=</DigestValue></Reference></SignedInfo><SignatureValue>faVl96SD0vS/STozBJMfhiTkliww6kJ/fB4HqaTo/vVa7uYUYQ5Cyu2cO9rCgK0AlROju16Iw+24YzuhU0g7MTfZUYvzkPqNOY1CysUPEX6iDu0JTxVghL5gPmGU7lHA7c3wycUhz8G3uftzPHDJWX9b+1R9e8unpy1vm7gbiRWgGdcPiI2RALdOgqtm6nl95E1CnISGnBnwg2CBWqmjrMj2W595GFjWnpAJaDE7q0h0rmlvI3MiCGAJHfZRh72vlPSuI7SWDCw9P62fjiTgO39mp7JhLY6umUmXi2L8kei2hHnEYkscC6HuoufhVaMcT8ehZn4uTn45tTFKT+0oVw==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIDcTCCAlmgAwIBAgIJANlMr4WDsT9iMA0GCSqGSIb3DQEBCwUAMHgxCzAJBgNVBAYTAkJSMRkwFwYDVQQKExBJQ1AtQnJhc2lsIFRFU1RFMRgwFgYDVQQLEw9lLUNOUEogQTEgVEVTVEUxNDAyBgNVBAMTK0ZBQ1VMREFERSBGSUNUSUNJQSBERSBURVNURVM6MTEyMjIzMzMwMDAxODEwHhcNMjAwMTAxMDAwMDAwWhcNMzAwMTAxMDAwMDAwWjB4MQswCQYDVQQGEwJCUjEZMBcGA1UEChMQSUNQLUJyYXNpbCBURVNURTEYMBYGA1UECxMPZS1DTlBKIEExIFRFU1RFMTQwMgYDVQQDEytGQUNVTERBREUgRklDVElDSUEgREUgVEVTVEVTOjExMjIyMzMzMDAwMTgxMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuiv73j/F5Jo45r4fUdtaeNu93BR7g1ibsZilQxjpeHbMNhqUmrKgcUVNf1MvWmbGlSAf1/zRSO+XTcGrh9Ovrupuce72sNPwZfBQeUR32uW5C6k8bSM6wGz221uqhwqVvx4rZAPvlVH9xGWWHjosGNrXkQX4oC0qCEqSTWhYkcLWhhIOpPvPXITHxxJq1Jjk+qDmUeqlIhgg15+Sst7GkU5arGOfWBu58AoCYNZHgKmZ3zNDD8DHmys8XG8kB2aUObHg5mRab9PDu4SvnxLPo1K1TDMHM/rBFmrBJ1/pQVZCPrFuhYipQ+V10CO+BczD6WW2PKyGAbIzOv92mbzgOQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQCW6DFL1Wx5lR+wH/NEvyb3lKlYMnG8YhgWpDyOpwaeRRf5hdNv5oOhvu3NkK4u6jE+dWjwyUjb2SNutU2zXt8V3GGScAOoEgl3uH6mVtuUMgudu4EpEEXhrQu3fa+0wg5WHzmQaM50pttJVLKtjoURVZ6NRhQS+HHsjL6Utx7FZ2k7RH3Sls0xG4o0IXsBs4mL7qBIJPt487kcMVFNOYfck3pBGpnd+3cwtITa/HPlk7bIdNXZQCVcl868o7q88vb7u/ODPgMt3BdgOCNoUE3RqrVfbD0mncl+W5w2s60xtGzg6RX+p+mT1Z9PoDD76EL0YErj70XbwiUnr6wW2nNN</X509Certificate></X509Data></KeyInfo><Object><xades:QualifyingProperties Target="#id-8e9090b11ae84232b944b6fd29705153" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#"><xades:SignedProperties Id="xades-id-8e9090b11ae84232b944b6fd29705153"><xades:SignedSignatureProperties><xades:SigningTime>2023-02-10T12:05:00Z</xades:SigningTime><xades:SignaturePolicyIdentifier><xades:SignaturePolicyId><xades:SigPolicyId><xades:Identifier>urn:oid:2.16.76.1.7.1.10.2.4</xades:Identifier></xades:SigPolicyId><xades:SigPolicyQualifiers><xades:SigPolicyQualifier><xades:SPURI>http://politicas.icpbrasil.gov.br/PA_AD_RA_v2_4.xml</xades:SPURI></xades:SigPolicyQualifier></xades:SigPolicyQualifiers></xades:SignaturePolicyId></xades:SignaturePolicyIdentifier></xades:SignedSignatureProperties></xades:SignedProperties></xades:QualifyingProperties></Object></Signature></DocumentoHistoricoEscolarFinal>

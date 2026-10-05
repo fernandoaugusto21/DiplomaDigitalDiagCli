@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="DiplomaDiagnosticCli.Tests/DiplomaDiagnosticCli.Tests.csproj" />
+  <Project Path="DiplomaDiagnosticCli/DiplomaDiagnosticCli.csproj" />
+</Solution>

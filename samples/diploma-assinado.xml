@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fixture sintética: todos os dados são fictícios (CPFs/CNPJs gerados com dígito verificador válido). -->
+<Diploma xmlns="http://portal.mec.gov.br/diplomadigital/arquivos-em-xsd">
+  <infDiploma versao="1.05" id="VDip12345678901234567890123456789012345678901234">
+    <DadosDiploma id="Dip12345678901234567890123456789012345678901234">
+      <Diplomado>
+        <ID>2019000123</ID>
+        <Nome>Maria Ficticia da Silva Teste</Nome>
+        <Sexo>F</Sexo>
+        <Nacionalidade>Brasileira</Nacionalidade>
+        <Naturalidade>
+          <CodigoMunicipio>3550308</CodigoMunicipio>
+          <NomeMunicipio>São Paulo</NomeMunicipio>
+          <UF>SP</UF>
+        </Naturalidade>
+        <CPF>52998224725</CPF>
+        <RG>
+          <Numero>RGX987654</Numero>
+          <OrgaoExpedidor>SSP</OrgaoExpedidor>
+          <UF>SP</UF>
+        </RG>
+        <DataNascimento>2000-03-15</DataNascimento>
+      </Diplomado>
+      <DataConclusao>2022-12-15</DataConclusao>
+      <DadosCurso>
+        <NomeCurso>Engenharia de Testes</NomeCurso>
+        <CodigoCursoEMEC>1234567</CodigoCursoEMEC>
+        <Modalidade>Presencial</Modalidade>
+        <TituloConferido>
+          <Titulo>Bacharel</Titulo>
+        </TituloConferido>
+        <GrauConferido>Bacharelado</GrauConferido>
+        <EnderecoCurso>
+          <Logradouro>Rua dos Testes</Logradouro>
+          <Numero>100</Numero>
+          <Bairro>Centro</Bairro>
+          <CodigoMunicipio>3550308</CodigoMunicipio>
+          <NomeMunicipio>São Paulo</NomeMunicipio>
+          <UF>SP</UF>
+          <CEP>01001000</CEP>
+        </EnderecoCurso>
+        <Autorizacao>
+          <Tipo>Portaria</Tipo>
+          <Numero>100</Numero>
+          <Data>2015-01-10</Data>
+        </Autorizacao>
+        <Reconhecimento>
+          <Tipo>Portaria</Tipo>
+          <Numero>200</Numero>
+          <Data>2019-06-20</Data>
+        </Reconhecimento>
+      </DadosCurso>
+      <IesEmissora>
+        <Nome>Faculdade Ficticia de Testes</Nome>
+        <CodigoMEC>9999</CodigoMEC>
+        <CNPJ>11222333000181</CNPJ>
+        <Endereco>
+          <Logradouro>Rua dos Testes</Logradouro>
+          <Numero>100</Numero>
+          <Bairro>Centro</Bairro>
+          <CodigoMunicipio>3550308</CodigoMunicipio>
+          <NomeMunicipio>São Paulo</NomeMunicipio>
+          <UF>SP</UF>
+          <CEP>01001000</CEP>
+        </Endereco>
+        <Credenciamento>
+          <Tipo>Portaria</Tipo>
+          <Numero>50</Numero>
+          <Data>2010-02-01</Data>
+        </Credenciamento>
+      </IesEmissora>
+    <Signature Id="id-4eb050ef55bb4cf7acd467a9fa4b1ce3" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><Reference URI="#Dip12345678901234567890123456789012345678901234"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/TR/1999/REC-xpath-19991116"><XPath xmlns:ds="http://www.w3.org/2000/09/xmldsig#">not(ancestor-or-self::ds:Signature)</XPath></Transform><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><DigestValue>vX5BRIuWTFaneks08Bkie7og5GM9l0YrBYqP3hskzV4=</DigestValue></Reference><Reference URI="#xades-id-4eb050ef55bb4cf7acd467a9fa4b1ce3" Type="http://uri.etsi.org/01903#SignedProperties"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><DigestValue>Npnon2/g3wGF2UxLqqeJNs9aEdQ8NGSPmDojuCJlZqk=</DigestValue></Reference></SignedInfo><SignatureValue>jLxsULyWsH2WE08TDzlQjTrg0qJ5eqTdHFCRKb9gUSMGXXc4lKbkfCta+BQpSxWzkozNp1OEXdbbteUX6N8VfNIP2V/W8EMz+y3eFrxtUqd2i7Y1NEE0v//3Au1uhqMzPZFvuIdy/HfOH414s6idqrIaYPmFD+LSg+tVtpxCkSnbduVpx+WNztAgcPGL0fh8PSx7wLBKwppZ3yJs4NCw83vg3G0dJ1mbTosLE9lWe9gbUHMZ2LfgJOScqxwcPKMNuW+2SP2K3gzMNNlMvd9lbu2K6e5hSNrqqNgF1dAiNos5zeeCkSA+0u3ZpcyHnW4vemkTK5yEt/1P16GI9YdnQg==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIDYjCCAkqgAwIBAgIIZzADN+qSqpEwDQYJKoZIhvcNAQELBQAwcTELMAkGA1UEBhMCQlIxGTAXBgNVBAoTEElDUC1CcmFzaWwgVEVTVEUxFzAVBgNVBAsTDmUtQ1BGIEEzIFRFU1RFMS4wLAYDVQQDEyVNQVJJQSBTRUNSRVRBUklBIEZJQ1RJQ0lBOjM5MDUzMzQ0NzA1MB4XDTIwMDEwMTAwMDAwMFoXDTMwMDEwMTAwMDAwMFowcTELMAkGA1UEBhMCQlIxGTAXBgNVBAoTEElDUC1CcmFzaWwgVEVTVEUxFzAVBgNVBAsTDmUtQ1BGIEEzIFRFU1RFMS4wLAYDVQQDEyVNQVJJQSBTRUNSRVRBUklBIEZJQ1RJQ0lBOjM5MDUzMzQ0NzA1MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAs/uB1RmxRAJANIQIVrObbp/gSXTDm8CwMni9IjldYyufPs2adrc2DyldrCcrBRqEeDjJMCs87+MbfcQwd0sOuYFXQ/W3F/dRALAHpMvE2vmcxx0i3o3WeARautq6CaiE1Rphpj0L+O8lz50w8pU8M0suFosZhxidrafWifvQ18pbP8H3yl9cMNHB9evKl8ibRCnukpbvPZfK+WdTTmpZZb+SY5EwDHZUgjK8dZVtBqUycqwlcUPZ2ynxxSxpqJe8f8FMPUznupDw9y2xMvNP7Izw0f8k1RP0cbURxccmLivBana4QiK0ObhyCiAJV5s3OelurWdeK6yb0PK40sUEmQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQAOvR+2kDq6k03dNddtaLyppFS8S9SDvY1bdgT00WJfMqN1Y3MiQ+23iSXs1dStzJIaEb9xR3MizvxfU6ThJUfc2GFAO1hjgZODmlHw2n1vHXrjYuSu+hY33iiz52j1ACBnXfR8Pt9mmSgzfq178Y4aLmtX7JQKmrJtssd5PiBIj/f44ekqiXLOGqsgnY9tiXJVhX0Qfojh/H6uHhoyr+UZndwRqef4ShoM3T81kCsuvvWbh0klLbrAB7mYsnH8IK20cjx6+7ut3T0rw84my31GuBOfFAfAo4g++LqL8wN4PzgdZjtCnI0xGBKdwz+o99et/N/wfN/i31EbM162DpX+</X509Certificate></X509Data></KeyInfo><Object><xades:QualifyingProperties Target="#id-4eb050ef55bb4cf7acd467a9fa4b1ce3" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#"><xades:SignedProperties Id="xades-id-4eb050ef55bb4cf7acd467a9fa4b1ce3"><xades:SignedSignatureProperties><xades:SigningTime>2023-02-10T12:00:00Z</xades:SigningTime><xades:SignaturePolicyIdentifier><xades:SignaturePolicyId><xades:SigPolicyId><xades:Identifier>urn:oid:2.16.76.1.7.1.6.2.4</xades:Identifier></xades:SigPolicyId><xades:SigPolicyQualifiers><xades:SigPolicyQualifier><xades:SPURI>http://politicas.icpbrasil.gov.br/PA_AD_RB_v2_4.xml</xades:SPURI></xades:SigPolicyQualifier></xades:SigPolicyQualifiers></xades:SignaturePolicyId></xades:SignaturePolicyIdentifier></xades:SignedSignatureProperties></xades:SignedProperties></xades:QualifyingProperties></Object></Signature><Signature Id="id-90f2f8f31fa94cdcbd0471289b3bb347" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><Reference URI="#Dip12345678901234567890123456789012345678901234"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/TR/1999/REC-xpath-19991116"><XPath xmlns:ds="http://www.w3.org/2000/09/xmldsig#">not(ancestor-or-self::ds:Signature)</XPath></Transform><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><DigestValue>vX5BRIuWTFaneks08Bkie7og5GM9l0YrBYqP3hskzV4=</DigestValue></Reference><Reference URI="#xades-id-90f2f8f31fa94cdcbd0471289b3bb347" Type="http://uri.etsi.org/01903#SignedProperties"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><DigestValue>hxDEmBLYT2b9CrMOkGQlbhlkvW5za1EO7B0NJbD7YcU=</DigestValue></Reference></SignedInfo><SignatureValue>eyHKcSRM1dbFa4eZ+ZLRAbK2q3TEhdFB0IJZKIZNM/nRfDPyFpYnReRKpgt9fAL2pnOzLIgzAAsCLkgoi5PGxSqKRtDb0ljOrCghBcRQXnBRhqkIuX2pWx7wul4dquSDBh0gGTs+XO/RX1s0bTfVS1ay+9h6Yq6ZpMtk2sQRJpI210iB8e9RH7IgT1VhheuGQRO048iZEp1H1ymBoU5Mn/0KTWRLfx98ZR0D/Kp7+4irgfQT5ao6NGpozSvpZ+WvgJ4IxiyWUHpcZXTK5Mdbgd4JPHZ+qCYu1fBiN4DUcbVr6nQwtKiAGY6hMKKrNsHkMrvF4ZhMGJSI53pQF8fDgg==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIDcTCCAlmgAwIBAgIJANlMr4WDsT9iMA0GCSqGSIb3DQEBCwUAMHgxCzAJBgNVBAYTAkJSMRkwFwYDVQQKExBJQ1AtQnJhc2lsIFRFU1RFMRgwFgYDVQQLEw9lLUNOUEogQTEgVEVTVEUxNDAyBgNVBAMTK0ZBQ1VMREFERSBGSUNUSUNJQSBERSBURVNURVM6MTEyMjIzMzMwMDAxODEwHhcNMjAwMTAxMDAwMDAwWhcNMzAwMTAxMDAwMDAwWjB4MQswCQYDVQQGEwJCUjEZMBcGA1UEChMQSUNQLUJyYXNpbCBURVNURTEYMBYGA1UECxMPZS1DTlBKIEExIFRFU1RFMTQwMgYDVQQDEytGQUNVTERBREUgRklDVElDSUEgREUgVEVTVEVTOjExMjIyMzMzMDAwMTgxMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuiv73j/F5Jo45r4fUdtaeNu93BR7g1ibsZilQxjpeHbMNhqUmrKgcUVNf1MvWmbGlSAf1/zRSO+XTcGrh9Ovrupuce72sNPwZfBQeUR32uW5C6k8bSM6wGz221uqhwqVvx4rZAPvlVH9xGWWHjosGNrXkQX4oC0qCEqSTWhYkcLWhhIOpPvPXITHxxJq1Jjk+qDmUeqlIhgg15+Sst7GkU5arGOfWBu58AoCYNZHgKmZ3zNDD8DHmys8XG8kB2aUObHg5mRab9PDu4SvnxLPo1K1TDMHM/rBFmrBJ1/pQVZCPrFuhYipQ+V10CO+BczD6WW2PKyGAbIzOv92mbzgOQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQCW6DFL1Wx5lR+wH/NEvyb3lKlYMnG8YhgWpDyOpwaeRRf5hdNv5oOhvu3NkK4u6jE+dWjwyUjb2SNutU2zXt8V3GGScAOoEgl3uH6mVtuUMgudu4EpEEXhrQu3fa+0wg5WHzmQaM50pttJVLKtjoURVZ6NRhQS+HHsjL6Utx7FZ2k7RH3Sls0xG4o0IXsBs4mL7qBIJPt487kcMVFNOYfck3pBGpnd+3cwtITa/HPlk7bIdNXZQCVcl868o7q88vb7u/ODPgMt3BdgOCNoUE3RqrVfbD0mncl+W5w2s60xtGzg6RX+p+mT1Z9PoDD76EL0YErj70XbwiUnr6wW2nNN</X509Certificate></X509Data></KeyInfo><Object><xades:QualifyingProperties Target="#id-90f2f8f31fa94cdcbd0471289b3bb347" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#"><xades:SignedProperties Id="xades-id-90f2f8f31fa94cdcbd0471289b3bb347"><xades:SignedSignatureProperties><xades:SigningTime>2023-02-10T12:01:00Z</xades:SigningTime><xades:SignaturePolicyIdentifier><xades:SignaturePolicyId><xades:SigPolicyId><xades:Identifier>urn:oid:2.16.76.1.7.1.6.2.4</xades:Identifier></xades:SigPolicyId><xades:SigPolicyQualifiers><xades:SigPolicyQualifier><xades:SPURI>http://politicas.icpbrasil.gov.br/PA_AD_RB_v2_4.xml</xades:SPURI></xades:SigPolicyQualifier></xades:SigPolicyQualifiers></xades:SignaturePolicyId></xades:SignaturePolicyIdentifier></xades:SignedSignatureProperties></xades:SignedProperties></xades:QualifyingProperties></Object></Signature></DadosDiploma>
+    <DadosRegistro id="RDip12345678901234567890123456789012345678901234">
+      <IesRegistradora>
+        <Nome>Faculdade Ficticia de Testes</Nome>
+        <CodigoMEC>9999</CodigoMEC>
+        <CNPJ>11222333000181</CNPJ>
+        <Endereco>
+          <Logradouro>Rua dos Testes</Logradouro>
+          <Numero>100</Numero>
+          <Bairro>Centro</Bairro>
+          <CodigoMunicipio>3550308</CodigoMunicipio>
+          <NomeMunicipio>São Paulo</NomeMunicipio>
+          <UF>SP</UF>
+          <CEP>01001000</CEP>
+        </Endereco>
+        <Credenciamento>
+          <Tipo>Portaria</Tipo>
+          <Numero>50</Numero>
+          <Data>2010-02-01</Data>
+        </Credenciamento>
+        <Mantenedora>
+          <RazaoSocial>Mantenedora Ficticia de Ensino</RazaoSocial>
+          <CNPJ>11444777000161</CNPJ>
+          <Endereco>
+            <Logradouro>Rua dos Testes</Logradouro>
+            <Numero>100</Numero>
+            <Bairro>Centro</Bairro>
+            <CodigoMunicipio>3550308</CodigoMunicipio>
+            <NomeMunicipio>São Paulo</NomeMunicipio>
+            <UF>SP</UF>
+            <CEP>01001000</CEP>
+          </Endereco>
+        </Mantenedora>
+      </IesRegistradora>
+      <LivroRegistro>
+        <LivroRegistro>L-01</LivroRegistro>
+        <NumeroRegistro>2023-0001</NumeroRegistro>
+        <DataColacaoGrau>2023-01-20</DataColacaoGrau>
+        <DataExpedicaoDiploma>2023-02-01</DataExpedicaoDiploma>
+        <DataRegistroDiploma>2023-02-03</DataRegistroDiploma>
+        <ResponsavelRegistro>
+          <Nome>Carlos Registrador Ficticio</Nome>
+          <CPF>12345678909</CPF>
+        </ResponsavelRegistro>
+      </LivroRegistro>
+      <IdDocumentacaoAcademica>ReqDip12345678901234567890123456789012345678901234</IdDocumentacaoAcademica>
+      <Seguranca>
+        <CodigoValidacao>9999.9999.0a1b2c3d4e5f</CodigoValidacao>
+      </Seguranca>
+    <Signature Id="id-f2fb863abe224fbe89ec0517f0379ee7" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><Reference URI="#RDip12345678901234567890123456789012345678901234"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/TR/1999/REC-xpath-19991116"><XPath xmlns:ds="http://www.w3.org/2000/09/xmldsig#">not(ancestor-or-self::ds:Signature)</XPath></Transform><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><DigestValue>e/49XOgdrDEntnUSqYbVA8W/huUGxhVbCTKD+rwrG14=</DigestValue></Reference><Reference URI="#xades-id-f2fb863abe224fbe89ec0517f0379ee7" Type="http://uri.etsi.org/01903#SignedProperties"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><DigestValue>mITXRpOFXSQnCXzu34c/zPrmNpftVV948cxhJ1xFs98=</DigestValue></Reference></SignedInfo><SignatureValue>qv2f1c67jGNVzgxFD22AzxLkNXITP978YTdx6kKYYxrVe61EVRh3Xx0DQu2D45QKWLnlwoTRDLMYlu2DMDyUIt1MxTSfqLTUwbSe97wwsZADzSMx8MW/Bp0m4XReFDZLgkkl2L9Ti/m2kbv2aVZMLafw+bKvJvMcDLBOxU00Ej9SIY8rSvPzLV9M9oe2hffb+2ql8vIczrPFGUO5Yaw/TVMiwa1UkoMfJt+N8nFycnWVIOB7S3SFFptGTnqwhdP6JFNShTV/3myD8HmhrqsViF2KJbeWBwuNa+PzTOAei8lRHaMddzPuTeJjQxzwWJ3C93lKF9yFfJLLauzDscS0tw==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIDYjCCAkqgAwIBAgIIZzADN+qSqpEwDQYJKoZIhvcNAQELBQAwcTELMAkGA1UEBhMCQlIxGTAXBgNVBAoTEElDUC1CcmFzaWwgVEVTVEUxFzAVBgNVBAsTDmUtQ1BGIEEzIFRFU1RFMS4wLAYDVQQDEyVNQVJJQSBTRUNSRVRBUklBIEZJQ1RJQ0lBOjM5MDUzMzQ0NzA1MB4XDTIwMDEwMTAwMDAwMFoXDTMwMDEwMTAwMDAwMFowcTELMAkGA1UEBhMCQlIxGTAXBgNVBAoTEElDUC1CcmFzaWwgVEVTVEUxFzAVBgNVBAsTDmUtQ1BGIEEzIFRFU1RFMS4wLAYDVQQDEyVNQVJJQSBTRUNSRVRBUklBIEZJQ1RJQ0lBOjM5MDUzMzQ0NzA1MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAs/uB1RmxRAJANIQIVrObbp/gSXTDm8CwMni9IjldYyufPs2adrc2DyldrCcrBRqEeDjJMCs87+MbfcQwd0sOuYFXQ/W3F/dRALAHpMvE2vmcxx0i3o3WeARautq6CaiE1Rphpj0L+O8lz50w8pU8M0suFosZhxidrafWifvQ18pbP8H3yl9cMNHB9evKl8ibRCnukpbvPZfK+WdTTmpZZb+SY5EwDHZUgjK8dZVtBqUycqwlcUPZ2ynxxSxpqJe8f8FMPUznupDw9y2xMvNP7Izw0f8k1RP0cbURxccmLivBana4QiK0ObhyCiAJV5s3OelurWdeK6yb0PK40sUEmQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQAOvR+2kDq6k03dNddtaLyppFS8S9SDvY1bdgT00WJfMqN1Y3MiQ+23iSXs1dStzJIaEb9xR3MizvxfU6ThJUfc2GFAO1hjgZODmlHw2n1vHXrjYuSu+hY33iiz52j1ACBnXfR8Pt9mmSgzfq178Y4aLmtX7JQKmrJtssd5PiBIj/f44ekqiXLOGqsgnY9tiXJVhX0Qfojh/H6uHhoyr+UZndwRqef4ShoM3T81kCsuvvWbh0klLbrAB7mYsnH8IK20cjx6+7ut3T0rw84my31GuBOfFAfAo4g++LqL8wN4PzgdZjtCnI0xGBKdwz+o99et/N/wfN/i31EbM162DpX+</X509Certificate></X509Data></KeyInfo><Object><xades:QualifyingProperties Target="#id-f2fb863abe224fbe89ec0517f0379ee7" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#"><xades:SignedProperties Id="xades-id-f2fb863abe224fbe89ec0517f0379ee7"><xades:SignedSignatureProperties><xades:SigningTime>2023-02-10T12:02:00Z</xades:SigningTime><xades:SignaturePolicyIdentifier><xades:SignaturePolicyId><xades:SigPolicyId><xades:Identifier>urn:oid:2.16.76.1.7.1.6.2.4</xades:Identifier></xades:SigPolicyId><xades:SigPolicyQualifiers><xades:SigPolicyQualifier><xades:SPURI>http://politicas.icpbrasil.gov.br/PA_AD_RB_v2_4.xml</xades:SPURI></xades:SigPolicyQualifier></xades:SigPolicyQualifiers></xades:SignaturePolicyId></xades:SignaturePolicyIdentifier></xades:SignedSignatureProperties></xades:SignedProperties></xades:QualifyingProperties></Object></Signature></DadosRegistro>
+  </infDiploma>
+<Signature Id="id-a72ef3bf1b6f4115904ce5920989fdc6" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/TR/1999/REC-xpath-19991116"><XPath xmlns:ds="http://www.w3.org/2000/09/xmldsig#">not(ancestor-or-self::ds:Signature)</XPath></Transform><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><DigestValue>UZ8Z5GjAcpYKTGDnJtjpLRuUiez/yYljx6El5lVdKa8=</DigestValue></Reference><Reference URI="#xades-id-a72ef3bf1b6f4115904ce5920989fdc6" Type="http://uri.etsi.org/01903#SignedProperties"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><DigestValue>XC05c1JBcH+D/ulx73Bk702eh2/FHSpJYe/hLg+Ieqo=</DigestValue></Reference></SignedInfo><SignatureValue>UXZRVVEuND93Ts/wFNWEv52A2b+Krzk6XW7dQlZgDXOg7IWRTjn/ZkcPY4Yvg1Kj/RleZ582grT3peI0CXux4fAERysIhpNtAUs0lPcSGq+Bnw3mseQ1hm6p0RlJD/e5qfA4FTCuqAgfmt1r9vRgKlhQx7C1V42S/8NzK2L2q5Ym3CI2nsURmXnQEen/YZTQ4Jc0i1+SvFj/GesQFANLs2TKX2SbjwsOcMx2AdlSKKn9uQa5LN6QjqE/jyw4uJMVQ2FV01Rmx2n+L1CX9mfhNTraRue3bD9u0HlKV3UHmaIFfWomyDrAinekHHdc+EAlqvjKmMBjE34G1hLR40sYQg==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIDcTCCAlmgAwIBAgIJANlMr4WDsT9iMA0GCSqGSIb3DQEBCwUAMHgxCzAJBgNVBAYTAkJSMRkwFwYDVQQKExBJQ1AtQnJhc2lsIFRFU1RFMRgwFgYDVQQLEw9lLUNOUEogQTEgVEVTVEUxNDAyBgNVBAMTK0ZBQ1VMREFERSBGSUNUSUNJQSBERSBURVNURVM6MTEyMjIzMzMwMDAxODEwHhcNMjAwMTAxMDAwMDAwWhcNMzAwMTAxMDAwMDAwWjB4MQswCQYDVQQGEwJCUjEZMBcGA1UEChMQSUNQLUJyYXNpbCBURVNURTEYMBYGA1UECxMPZS1DTlBKIEExIFRFU1RFMTQwMgYDVQQDEytGQUNVTERBREUgRklDVElDSUEgREUgVEVTVEVTOjExMjIyMzMzMDAwMTgxMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuiv73j/F5Jo45r4fUdtaeNu93BR7g1ibsZilQxjpeHbMNhqUmrKgcUVNf1MvWmbGlSAf1/zRSO+XTcGrh9Ovrupuce72sNPwZfBQeUR32uW5C6k8bSM6wGz221uqhwqVvx4rZAPvlVH9xGWWHjosGNrXkQX4oC0qCEqSTWhYkcLWhhIOpPvPXITHxxJq1Jjk+qDmUeqlIhgg15+Sst7GkU5arGOfWBu58AoCYNZHgKmZ3zNDD8DHmys8XG8kB2aUObHg5mRab9PDu4SvnxLPo1K1TDMHM/rBFmrBJ1/pQVZCPrFuhYipQ+V10CO+BczD6WW2PKyGAbIzOv92mbzgOQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQCW6DFL1Wx5lR+wH/NEvyb3lKlYMnG8YhgWpDyOpwaeRRf5hdNv5oOhvu3NkK4u6jE+dWjwyUjb2SNutU2zXt8V3GGScAOoEgl3uH6mVtuUMgudu4EpEEXhrQu3fa+0wg5WHzmQaM50pttJVLKtjoURVZ6NRhQS+HHsjL6Utx7FZ2k7RH3Sls0xG4o0IXsBs4mL7qBIJPt487kcMVFNOYfck3pBGpnd+3cwtITa/HPlk7bIdNXZQCVcl868o7q88vb7u/ODPgMt3BdgOCNoUE3RqrVfbD0mncl+W5w2s60xtGzg6RX+p+mT1Z9PoDD76EL0YErj70XbwiUnr6wW2nNN</X509Certificate></X509Data></KeyInfo><Object><xades:QualifyingProperties Target="#id-a72ef3bf1b6f4115904ce5920989fdc6" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#"><xades:SignedProperties Id="xades-id-a72ef3bf1b6f4115904ce5920989fdc6"><xades:SignedSignatureProperties><xades:SigningTime>2023-02-10T12:03:00Z</xades:SigningTime><xades:SignaturePolicyIdentifier><xades:SignaturePolicyId><xades:SigPolicyId><xades:Identifier>urn:oid:2.16.76.1.7.1.10.2.4</xades:Identifier></xades:SigPolicyId><xades:SigPolicyQualifiers><xades:SigPolicyQualifier><xades:SPURI>http://politicas.icpbrasil.gov.br/PA_AD_RA_v2_4.xml</xades:SPURI></xades:SigPolicyQualifier></xades:SigPolicyQualifiers></xades:SignaturePolicyId></xades:SignaturePolicyIdentifier></xades:SignedSignatureProperties></xades:SignedProperties></xades:QualifyingProperties></Object></Signature></Diploma>

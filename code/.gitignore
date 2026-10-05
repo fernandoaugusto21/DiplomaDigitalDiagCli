@@ -1,0 +1,5 @@
+bin/
+obj/
+*.user
+# Exemplos públicos de terceiros baixados sob demanda (ver scripts/) — não versionar
+DiplomaDiagnosticCli.Tests/external-samples/

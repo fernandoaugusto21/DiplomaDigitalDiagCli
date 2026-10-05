@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Fixture sintética: todos os dados são fictícios (CPFs/CNPJs gerados com dígito verificador válido). -->
+<DocumentoHistoricoEscolarFinal xmlns="http://portal.mec.gov.br/diplomadigital/arquivos-em-xsd">
+  <infHistoricoEscolar versao="1.05">
+    <Aluno>
+      <ID>2019000123</ID>
+      <Nome>Maria Ficticia da Silva Teste</Nome>
+      <Sexo>F</Sexo>
+      <Nacionalidade>Brasileira</Nacionalidade>
+      <Naturalidade>
+        <CodigoMunicipio>3550308</CodigoMunicipio>
+        <NomeMunicipio>São Paulo</NomeMunicipio>
+        <UF>SP</UF>
+      </Naturalidade>
+      <CPF>52998224725</CPF>
+      <RG>
+        <Numero>RGX987654</Numero>
+        <OrgaoExpedidor>SSP</OrgaoExpedidor>
+        <UF>SP</UF>
+      </RG>
+      <DataNascimento>2000-03-15</DataNascimento>
+    </Aluno>
+    <DadosCurso>
+      <NomeCurso>Engenharia de Testes</NomeCurso>
+      <CodigoCursoEMEC>1234567</CodigoCursoEMEC>
+      <Autorizacao>
+        <Tipo>Portaria</Tipo>
+        <Numero>100</Numero>
+        <Data>2015-01-10</Data>
+      </Autorizacao>
+      <Reconhecimento>
+        <Tipo>Portaria</Tipo>
+        <Numero>200</Numero>
+        <Data>2019-06-20</Data>
+      </Reconhecimento>
+    </DadosCurso>
+    <IesEmissora>
+      <Nome>Faculdade Ficticia de Testes</Nome>
+      <CodigoMEC>9999</CodigoMEC>
+      <CNPJ>11222333000181</CNPJ>
+      <Endereco>
+        <Logradouro>Rua dos Testes</Logradouro>
+        <Numero>100</Numero>
+        <Bairro>Centro</Bairro>
+        <CodigoMunicipio>3550308</CodigoMunicipio>
+        <NomeMunicipio>São Paulo</NomeMunicipio>
+        <UF>SP</UF>
+        <CEP>01001000</CEP>
+      </Endereco>
+      <Credenciamento>
+        <Tipo>Portaria</Tipo>
+        <Numero>50</Numero>
+        <Data>2010-02-01</Data>
+      </Credenciamento>
+      <Mantenedora>
+        <RazaoSocial>Mantenedora Ficticia de Ensino</RazaoSocial>
+        <CNPJ>11444777000161</CNPJ>
+        <Endereco>
+          <Logradouro>Rua dos Testes</Logradouro>
+          <Numero>100</Numero>
+          <Bairro>Centro</Bairro>
+          <CodigoMunicipio>3550308</CodigoMunicipio>
+          <NomeMunicipio>São Paulo</NomeMunicipio>
+          <UF>SP</UF>
+          <CEP>01001000</CEP>
+        </Endereco>
+      </Mantenedora>
+    </IesEmissora>
+    <HistoricoEscolar>
+      <CodigoCurriculo>ENGTST-2019</CodigoCurriculo>
+      <ElementosHistorico>
+        <Disciplina>
+          <CodigoDisciplina>TST101</CodigoDisciplina>
+          <NomeDisciplina>Fundamentos de Testes</NomeDisciplina>
+          <PeriodoLetivo>2019/1</PeriodoLetivo>
+          <CargaHoraria>
+            <HoraRelogio>1200</HoraRelogio>
+          </CargaHoraria>
+          <Nota>8.50</Nota>
+          <Aprovado>
+            <FormaIntegralizacao>Cursado</FormaIntegralizacao>
+          </Aprovado>
+          <Docentes>
+            <Docente>
+              <Nome>Joao Docente Ficticio</Nome>
+              <Titulacao>Mestrado</Titulacao>
+              <CPF>11144477735</CPF>
+            </Docente>
+          </Docentes>
+        </Disciplina>
+        <Disciplina>
+          <CodigoDisciplina>TST201</CodigoDisciplina>
+          <NomeDisciplina>Testes Automatizados</NomeDisciplina>
+          <PeriodoLetivo>2020/1</PeriodoLetivo>
+          <CargaHoraria>
+            <HoraRelogio>1500</HoraRelogio>
+          </CargaHoraria>
+          <Nota>9.00</Nota>
+          <Aprovado>
+            <FormaIntegralizacao>Cursado</FormaIntegralizacao>
+          </Aprovado>
+          <Docentes>
+            <Docente>
+              <Nome>Joao Docente Ficticio</Nome>
+              <Titulacao>Mestrado</Titulacao>
+            </Docente>
+          </Docentes>
+        </Disciplina>
+        <Disciplina>
+          <CodigoDisciplina>TST301</CodigoDisciplina>
+          <NomeDisciplina>Qualidade de Software</NomeDisciplina>
+          <PeriodoLetivo>2021/1</PeriodoLetivo>
+          <CargaHoraria>
+            <HoraRelogio>800</HoraRelogio>
+          </CargaHoraria>
+          <Nota>7.00</Nota>
+          <Aprovado>
+            <FormaIntegralizacao>Aproveitado</FormaIntegralizacao>
+          </Aprovado>
+          <Docentes>
+            <Docente>
+              <Nome>Ana Docente Ficticia</Nome>
+              <Titulacao>Doutorado</Titulacao>
+            </Docente>
+          </Docentes>
+        </Disciplina>
+        <AtividadeComplementar>
+          <CodigoAtividadeComplementar>AC-01</CodigoAtividadeComplementar>
+          <DataInicio>2021-03-01</DataInicio>
+          <DataFim>2021-06-30</DataFim>
+          <TipoAtividadeComplementar>Extensão</TipoAtividadeComplementar>
+          <CargaHorariaEmHoraRelogio>200</CargaHorariaEmHoraRelogio>
+          <DocentesResponsaveisPelaValidacao>
+            <Docente>
+              <Nome>Ana Docente Ficticia</Nome>
+              <Titulacao>Doutorado</Titulacao>
+            </Docente>
+          </DocentesResponsaveisPelaValidacao>
+        </AtividadeComplementar>
+        <Estagio>
+          <CodigoUnidadeCurricular>EST-01</CodigoUnidadeCurricular>
+          <DataInicio>2022-02-01</DataInicio>
+          <DataFim>2022-11-30</DataFim>
+          <CargaHorariaEmHorasRelogio>300</CargaHorariaEmHorasRelogio>
+          <DocentesOrientadores>
+            <Docente>
+              <Nome>Ana Docente Ficticia</Nome>
+              <Titulacao>Doutorado</Titulacao>
+            </Docente>
+          </DocentesOrientadores>
+        </Estagio>
+      </ElementosHistorico>
+      <DataEmissaoHistorico>2023-02-10</DataEmissaoHistorico>
+      <HoraEmissaoHistorico>10:30:00</HoraEmissaoHistorico>
+      <SituacaoAtualDiscente>
+        <Formado>
+          <DataConclusaoCurso>2022-12-15</DataConclusaoCurso>
+          <DataColacaoGrau>2023-01-20</DataColacaoGrau>
+          <DataExpedicaoDiploma>2023-02-01</DataExpedicaoDiploma>
+        </Formado>
+      </SituacaoAtualDiscente>
+      <ENADE>
+        <Habilitado>
+          <Condicao>Concluinte</Condicao>
+          <Edicao>2022</Edicao>
+        </Habilitado>
+      </ENADE>
+      <CargaHorariaCursoIntegralizada>
+        <HoraRelogio>4000</HoraRelogio>
+      </CargaHorariaCursoIntegralizada>
+      <CargaHorariaCurso>
+        <HoraRelogio>4000</HoraRelogio>
+      </CargaHorariaCurso>
+      <IngressoCurso>
+        <Data>2019-02-01</Data>
+        <FormaAcesso>Vestibular</FormaAcesso>
+      </IngressoCurso>
+    </HistoricoEscolar>
+    <SegurancaHistorico>
+      <CodigoValidacao>9999.0a1b2c3d4e5f</CodigoValidacao>
+    </SegurancaHistorico>
+  </infHistoricoEscolar>
+</DocumentoHistoricoEscolarFinal>

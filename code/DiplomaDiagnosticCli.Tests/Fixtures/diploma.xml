@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Fixture sintética: todos os dados são fictícios (CPFs/CNPJs gerados com dígito verificador válido). -->
+<Diploma xmlns="http://portal.mec.gov.br/diplomadigital/arquivos-em-xsd">
+  <infDiploma versao="1.05" id="VDip12345678901234567890123456789012345678901234">
+    <DadosDiploma id="Dip12345678901234567890123456789012345678901234">
+      <Diplomado>
+        <ID>2019000123</ID>
+        <Nome>Maria Ficticia da Silva Teste</Nome>
+        <Sexo>F</Sexo>
+        <Nacionalidade>Brasileira</Nacionalidade>
+        <Naturalidade>
+          <CodigoMunicipio>3550308</CodigoMunicipio>
+          <NomeMunicipio>São Paulo</NomeMunicipio>
+          <UF>SP</UF>
+        </Naturalidade>
+        <CPF>52998224725</CPF>
+        <RG>
+          <Numero>RGX987654</Numero>
+          <OrgaoExpedidor>SSP</OrgaoExpedidor>
+          <UF>SP</UF>
+        </RG>
+        <DataNascimento>2000-03-15</DataNascimento>
+      </Diplomado>
+      <DataConclusao>2022-12-15</DataConclusao>
+      <DadosCurso>
+        <NomeCurso>Engenharia de Testes</NomeCurso>
+        <CodigoCursoEMEC>1234567</CodigoCursoEMEC>
+        <Modalidade>Presencial</Modalidade>
+        <TituloConferido>
+          <Titulo>Bacharel</Titulo>
+        </TituloConferido>
+        <GrauConferido>Bacharelado</GrauConferido>
+        <EnderecoCurso>
+          <Logradouro>Rua dos Testes</Logradouro>
+          <Numero>100</Numero>
+          <Bairro>Centro</Bairro>
+          <CodigoMunicipio>3550308</CodigoMunicipio>
+          <NomeMunicipio>São Paulo</NomeMunicipio>
+          <UF>SP</UF>
+          <CEP>01001000</CEP>
+        </EnderecoCurso>
+        <Autorizacao>
+          <Tipo>Portaria</Tipo>
+          <Numero>100</Numero>
+          <Data>2015-01-10</Data>
+        </Autorizacao>
+        <Reconhecimento>
+          <Tipo>Portaria</Tipo>
+          <Numero>200</Numero>
+          <Data>2019-06-20</Data>
+        </Reconhecimento>
+      </DadosCurso>
+      <IesEmissora>
+        <Nome>Faculdade Ficticia de Testes</Nome>
+        <CodigoMEC>9999</CodigoMEC>
+        <CNPJ>11222333000181</CNPJ>
+        <Endereco>
+          <Logradouro>Rua dos Testes</Logradouro>
+          <Numero>100</Numero>
+          <Bairro>Centro</Bairro>
+          <CodigoMunicipio>3550308</CodigoMunicipio>
+          <NomeMunicipio>São Paulo</NomeMunicipio>
+          <UF>SP</UF>
+          <CEP>01001000</CEP>
+        </Endereco>
+        <Credenciamento>
+          <Tipo>Portaria</Tipo>
+          <Numero>50</Numero>
+          <Data>2010-02-01</Data>
+        </Credenciamento>
+      </IesEmissora>
+    </DadosDiploma>
+    <DadosRegistro id="RDip12345678901234567890123456789012345678901234">
+      <IesRegistradora>
+        <Nome>Faculdade Ficticia de Testes</Nome>
+        <CodigoMEC>9999</CodigoMEC>
+        <CNPJ>11222333000181</CNPJ>
+        <Endereco>
+          <Logradouro>Rua dos Testes</Logradouro>
+          <Numero>100</Numero>
+          <Bairro>Centro</Bairro>
+          <CodigoMunicipio>3550308</CodigoMunicipio>
+          <NomeMunicipio>São Paulo</NomeMunicipio>
+          <UF>SP</UF>
+          <CEP>01001000</CEP>
+        </Endereco>
+        <Credenciamento>
+          <Tipo>Portaria</Tipo>
+          <Numero>50</Numero>
+          <Data>2010-02-01</Data>
+        </Credenciamento>
+        <Mantenedora>
+          <RazaoSocial>Mantenedora Ficticia de Ensino</RazaoSocial>
+          <CNPJ>11444777000161</CNPJ>
+          <Endereco>
+            <Logradouro>Rua dos Testes</Logradouro>
+            <Numero>100</Numero>
+            <Bairro>Centro</Bairro>
+            <CodigoMunicipio>3550308</CodigoMunicipio>
+            <NomeMunicipio>São Paulo</NomeMunicipio>
+            <UF>SP</UF>
+            <CEP>01001000</CEP>
+          </Endereco>
+        </Mantenedora>
+      </IesRegistradora>
+      <LivroRegistro>
+        <LivroRegistro>L-01</LivroRegistro>
+        <NumeroRegistro>2023-0001</NumeroRegistro>
+        <DataColacaoGrau>2023-01-20</DataColacaoGrau>
+        <DataExpedicaoDiploma>2023-02-01</DataExpedicaoDiploma>
+        <DataRegistroDiploma>2023-02-03</DataRegistroDiploma>
+        <ResponsavelRegistro>
+          <Nome>Carlos Registrador Ficticio</Nome>
+          <CPF>12345678909</CPF>
+        </ResponsavelRegistro>
+      </LivroRegistro>
+      <IdDocumentacaoAcademica>ReqDip12345678901234567890123456789012345678901234</IdDocumentacaoAcademica>
+      <Seguranca>
+        <CodigoValidacao>9999.9999.0a1b2c3d4e5f</CodigoValidacao>
+      </Seguranca>
+    </DadosRegistro>
+  </infDiploma>
+</Diploma>

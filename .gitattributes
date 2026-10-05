@@ -1,0 +1,3 @@
+# XSDs oficiais (hashes documentados) e XMLs assinados: preservar os bytes exatos.
+*.xsd -text
+*.xml -text

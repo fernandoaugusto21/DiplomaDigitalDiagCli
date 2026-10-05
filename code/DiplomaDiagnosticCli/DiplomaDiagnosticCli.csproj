@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>DiplomaDiagnosticCli</RootNamespace>
+    <AssemblyName>diploma-diagnostic</AssemblyName>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <Version>0.1.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.CommandLine" Version="2.0.11" />
+    <PackageReference Include="System.Security.Cryptography.Xml" Version="10.0.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- XSDs oficiais do MEC (v1.05), embutidos para validação offline. Ver Schemas/README.md. -->
+    <EmbeddedResource Include="Schemas\v1.05\*.xsd" LogicalName="Schemas.v1.05.%(Filename)%(Extension)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="DiplomaDiagnosticCli.Tests" />
+  </ItemGroup>
+
+</Project>
